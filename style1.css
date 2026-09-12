@@ -1,0 +1,41 @@
+/* group */
+
+div,span{
+    background-color: greenyellow;
+} 
+
+/* descendent(nested)*/
+ div p{
+    color: aqua;
+ } 
+
+   /*child selector (Parent child)*/
+   ul 
+     li{
+    color: brown;
+ } 
+
+ /* Adjacent selector(only applicable for first element after heading) */
+  h1+p{
+    background-color: pink;
+} 
+
+/* adjuscent selector(only applicable for all elements after heading) */
+h1~p{
+    background-color: green;
+} 
+
+/* Attribute selector*/
+[type="text"]{
+    color: red;
+} 
+/* pseudo selector */
+
+  h1:hover{
+    color: red;
+ } 
+
+ /* nth selector */
+ p:nth-of-type(2){
+    background-color: red;
+ }

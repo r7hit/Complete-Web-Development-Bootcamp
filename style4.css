@@ -1,0 +1,33 @@
+/* static: by default position
+
+
+/* .relative-box{
+    height: 20px;
+    width: 85px;
+    border:2px solid rgb(212, 30, 182);
+    padding: 40px;
+    top: 10px;
+    left : 3px;   
+} */
+
+/* .parent{
+    width:200px;
+    height:200px;
+    border:2px solid blue;
+}
+.abosulte-box{
+    border:2px solid blue;
+    paddig:10px;
+    top:10px;
+    left:10px;
+} */
+
+.fixed-header{
+
+     top:0;
+     right:0;
+     left:0;
+     width:100%;
+     background-color: rgb(198, 61, 106);
+     padding: 10px;
+}
